@@ -14,3 +14,9 @@ app.get('/',function(request,response){
     response.send("Express API esimerkki");
 });
 module.exports=app;
+
+{   
+compilerOptions:{
+    types: [node, jest, express]
+}
+}
