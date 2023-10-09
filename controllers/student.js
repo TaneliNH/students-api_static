@@ -14,6 +14,7 @@ router.get('/:id',function(request,response){
 
 router.post('/',function(request,response){
     let data=student.addStudent();
+    console.log(request.body);
     response.json(data);
 });
 
