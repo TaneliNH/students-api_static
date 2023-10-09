@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 app.use('./student',studentRouter);
 app.listen(port,function(){
-    console.log("sovellus kuuntelee porttia "+port)
+    console.log("sovellus kuuntelee porttia "+port);
 });
 
 app.get('/',function(request,response){
@@ -15,8 +15,3 @@ app.get('/',function(request,response){
 });
 module.exports=app;
 
-{   
-compilerOptions:{
-    types: [node, jest, express]
-}
-}

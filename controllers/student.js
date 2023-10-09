@@ -13,7 +13,7 @@ router.get('/:id',function(request,response){
 })
 
 router.post('/',function(request,response){
-    let data=student.addStudent();
+    let data=student.addStudent(request.body);
     console.log(request.body);
     response.json(data);
 });
