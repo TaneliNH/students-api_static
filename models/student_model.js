@@ -1,4 +1,4 @@
-const studentData=
+const studentData=[
     {id_student:1, firstname:'Teppo', lastname: 'Testi'},
     {id_student:2, firstname:'Liisa', lastname: 'Virta'},
     {id_student:3, firstname:'Aino', lastname: 'Meri'}
